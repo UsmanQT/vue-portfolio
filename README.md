@@ -1,6 +1,6 @@
 # vue-portfolio-se
 
-This template should help get you started developing with Vue 3 in Vite.
+I am developing my portfolio this time with Vue JS. I have built my portfolio before with React JS and plain HTML, CSS, and JavaScript. I believe this will help me in building good looking websites and also learn Vue JS.
 
 ## Recommended IDE Setup
 

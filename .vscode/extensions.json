@@ -1,10 +1,3 @@
 {
-<<<<<<< HEAD
   "recommendations": ["Vue.volar"]
-=======
-  "recommendations": [
-    "Vue.volar",
-    "dbaeumer.vscode-eslint"
-  ]
->>>>>>> f899b44 (added starting code and updated readme)
 }

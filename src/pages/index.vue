@@ -1,5 +1,6 @@
 <template>
   <Header />
+  <MainContent/>
 </template>
 
 <script setup>

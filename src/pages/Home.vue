@@ -1,5 +1,7 @@
 <template>
     <MyInfo/>
+    <MainContent/>
+    <HelloWorld/>
     <v-container>
       <v-row v-if="loading">
         <v-col cols="12" class="text-center">
@@ -32,6 +34,8 @@
 <script>
 import githubService from '@/services/githubService';
 import MyInfo from '@/components/MyInfo.vue';
+import MainContent from '@/components/MainContent.vue';
+import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
 data() {

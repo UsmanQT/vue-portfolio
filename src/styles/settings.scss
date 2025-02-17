@@ -8,3 +8,11 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
+// Import Vuetify's settings (to apply your overrides)
+@use 'vuetify/settings' with (
+  $color-pack: false,
+);
+
+.v-application {
+    background-color: white !important;
+}

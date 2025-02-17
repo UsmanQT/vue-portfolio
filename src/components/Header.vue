@@ -21,7 +21,7 @@
             </router-link>
             <router-link to="/chat" class="mx-2">
               <v-btn rounded="lg">
-                Chat
+                Say Hello
               </v-btn>
             </router-link>
           </v-row>

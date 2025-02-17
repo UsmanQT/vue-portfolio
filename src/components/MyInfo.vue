@@ -1,27 +1,27 @@
 <template>
     <v-container>
-      <v-col class="mx-auto text-center">
+      <v-col class="mx-auto text-left">
         <h1>{{ userInfo.fullName }}</h1>
         <p>Master's In Computer Science @ GVSU | SDE @ Applied Computing Institute</p>
         
-        <v-row class="mt-5" justify="center">
+        <v-row class="mt-5 mx-auto" justify="left">
           <!-- FontAwesome Icon -->
           <p>{{ userInfo.location }}</p>
         </v-row>
   
-        <v-row justify="center">
-            <font-awesome-icon :icon="['fas', 'envelope']" />
-          <a :href="`mailto:${userInfo.email}`">{{ userInfo.email }}</a>
+        <v-row class="mx-auto" justify="left" align="center">
+            <font-awesome-icon :icon="['fas', 'envelope']" class="pr-2"/>
+          <a :href="`mailto:${userInfo.email}`" style="color: yellow; text-decoration: none;">{{ userInfo.email }}</a>
         </v-row>
   
-        <v-row justify="center">
-            <font-awesome-icon :icon="['fab', 'linkedin']" />
-          <a :href="userInfo.linkedInLink">in/usmanq</a>
+        <v-row class="mx-auto" justify="left" align="center">
+            <font-awesome-icon :icon="['fab', 'linkedin']" class="pr-2"/>
+          <a :href="userInfo.linkedInLink" style="color: yellow; text-decoration: none;">in/usmanq</a>
         </v-row>
   
-        <v-row justify="center">
-            <font-awesome-icon :icon="['fab', 'github']" />
-          <a :href="userInfo.githubLink">UsmanQT</a>
+        <v-row class="mx-auto"justify="left" align="center">
+            <font-awesome-icon :icon="['fab', 'github']" class="pr-2"/>
+          <a :href="userInfo.githubLink" style="color: yellow; text-decoration: none;">UsmanQT</a>
         </v-row>
       </v-col>
     </v-container>
